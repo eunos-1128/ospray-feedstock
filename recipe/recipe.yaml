@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   version: "3.2.0"
-  build: 2
+  build: 3
   build_offset: ${{ build + 100 if mpi == 'nompi' else build }}
   mpi_prefix: ${{ 'nompi' if mpi == 'nompi' else 'mpi_' + mpi }}
 
